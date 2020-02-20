@@ -48,13 +48,10 @@ def game():
                 elif response_again == 'n':
                     break
                 else:
-                    response_again = str(
-                        input("Wrong Input. Play again?\n Play: Press [y] \n Quit: Press [n] \n Your Response: "))
-                    continue
+                    response_again = str(input("Play again?\n Play: Press [y] \n Quit: Press [n] \n Your Response: "))
         else:
             print("Wrong Input. Try again.")
             continue
         break
-
-
+        
 game()
